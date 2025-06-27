@@ -22,7 +22,8 @@ CAMINHO_CREDENCIAIS = os.path.join(SCRIPT_DIR, "credentials.json")
 CAMINHO_CHAVE = os.path.join(SCRIPT_DIR, "secret.key")
 
 # Caminho onde o Chromium empacotado está
-chromium_path = os.path.join(BASE_DIR, "Lib/site-packages/playwright/driver/package/.local-browsers")
+#chromium_path = os.path.join(BASE_DIR, "Lib/site-packages/playwright/driver/package/.local-browsers")
+chromium_path = os.path.join("C:/Users/0360700/AppData/Local", "ms-playwright")
 os.environ["PLAYWRIGHT_BROWSERS_PATH"] = chromium_path
 
 # Utilidades para exportação do .ico do onibus
