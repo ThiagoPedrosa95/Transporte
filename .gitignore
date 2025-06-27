@@ -2,3 +2,6 @@
 credentials.json
 dados_formulario.json
 secret.key
+build/
+dist/
+*.spec

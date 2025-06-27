@@ -445,4 +445,4 @@ if __name__ == "__main__":
     tela_login()
 
 # Compilar em um único executável
-# pyinstaller --onefile --noconsole --name Agendador_Roteiro --hidden-import=playwright.async_api --add-data "C:\Users\0360700\AppData\Local\ms-playwright;ms-playwright" --add-data "secret.key;." --add-data "credentials.json;." --add-data "dados_formulario.json;." --add-data "bus.ico:." --icon=bus.ico interface_transporte.py
+# pyinstaller --onefile --noconsole --name Agendador_Roteiro --hidden-import=playwright.async_api --add-data "C:\Users\0360700\AppData\Local\ms-playwright;ms-playwright" --add-data "secret.key;." --add-data "credentials.json;." --add-data "dados_formulario.json;." --add-data "bus.ico:." --icon=bus.ico main.py
